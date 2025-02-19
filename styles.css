@@ -39,3 +39,18 @@ footer{
         align-items: center;
     }
 }
+
+@media screen and (max-width:1000px) {
+    header{
+        display: flex;
+        align-items: center;
+    }
+    figure{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    figure img{
+        max-width: 300px;
+    }
+}
