@@ -48,6 +48,9 @@ footer{
     figcaption{
         padding: 15px;
     }
+    aside{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -86,11 +89,20 @@ footer{
         display: flex;
         justify-content: space-between;
     }
+    figure{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
     figure img{
         max-width: 300px;
+        height: auto;
+    }
+    figcaption{
+        padding: 15px;
     }
     aside{
-        max-width: 500px;
+        max-width: 450px;
         margin-top: 2rem;
         margin-left: -3rem;
         margin-bottom: 20rem;
